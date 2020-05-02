@@ -10,7 +10,7 @@ class Test_Abc_001():
         @allure.step(title='测试标题')
         def test_one(self):
             allure.attach('断言')
-            assert 0
+            assert 1
 
 if __name__=="__main__":
     pytest.main('-s --alluredir allure-report')
