@@ -8,7 +8,7 @@ import pytest , allure
 
 class Test_Abc_001():
         @allure.step(title='第一个测试')
-        def test_one(self,):
+        def test_one(self):
             allure.attach('这是一个藐视','试一下')
             assert 1
 
