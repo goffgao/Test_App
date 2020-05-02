@@ -12,3 +12,6 @@ class Test_Abc_001():
             allure.attach('这是一个藐视','试一下')
             assert 1
 
+if __name__=="__main__":
+    pytest.main('-s --alluredir allure-report')
+
