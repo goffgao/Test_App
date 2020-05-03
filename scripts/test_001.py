@@ -14,5 +14,5 @@ class Test_Abc_001():
 
         def test_002(self):
             allure.attach('0的断言')
-            assert 0
+            assert 1
 
