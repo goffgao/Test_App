@@ -12,7 +12,4 @@ class Test_Abc_001():
             allure.attach('断言')
             assert 1
 
-        def test_002(self):
-            allure.attach('0的断言')
-            assert 1
 
