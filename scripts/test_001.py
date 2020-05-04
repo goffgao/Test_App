@@ -12,4 +12,7 @@ class Test_Abc_001():
             allure.attach('断言')
             assert 1
 
+        def test_one2(self):
+            allure.attach('断言')
+            assert 0
 
